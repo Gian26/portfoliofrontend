@@ -1,0 +1,567 @@
+<!-- https://old.maximelafarie.com/ -->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <body class="container-fluid full-width"id="page-top">
+    <!-- Image and text -->
+   <nav class="navbar navbar-expand-md navbar-dark fixed-top blur">
+     <a class="navbar-brand"  [ngx-scroll-to]="'#page-top'">
+       <img src="/assets/img/cuellodev.png" width="80" height="60" class="d-inline-block align-top" alt="">
+      </a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" [ngx-scroll-to]="'#about'">Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [ngx-scroll-to]="'#skills'">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [ngx-scroll-to]="'#portfolio'">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [ngx-scroll-to]="'#contact'">Contact</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link disabled" [ngx-scroll-to]="'#portfolio'">Disabled</a>
+      </li> -->
+    </ul>
+    <!-- <form class="form-inline mt-2 mt-md-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form> -->
+  </div>
+</nav>
+    <!-- Header -->
+    <header class="masthead d-flex" style="background-image: url('../assets/img/bigpic.jpg')">
+      <div class="container text-center my-auto container-background">
+        <h1 class="mb-1 animated lightSpeedIn text-white">Web Developer and Computer Scientist</h1>
+        <h3 class="mb-5">
+          <em class="animated fadeInDown text-white ">Angular, Django, Machine Learning and more </em>
+        </h3>
+       </div>
+      <div class="overlay"></div>
+    </header>
+
+    <!-- About -->
+    <section class="content-section" id="about">
+      <div class="content-section-heading  text-center">
+        <h2 class="text-secondary mb-0 ">About Me</h2>
+       </div>
+      <div class="row bg-light " style="padding:0px; margin-top:20px;">
+
+        <div class="col-lg-4 ">
+          <div class="title-skills">
+            <h2 class="text-primary">Gian N Cuello</h2>
+          </div>
+          <p class="lead mb-5 animated flipInX"> Hi! I am a professional web developer based in Mérida Yucatán, México (see map below).
+          I develop web apps and web apis using Django, GraphQl, Rest or other new technologies that capture my attention.
+          Creating functional web apps to fulfill the needs of the market and creating great, legible, upto standard code is a necessity. I have interests in working with Artificial Intelligence more specific, Machine Learning techniques since it's in this field
+          I developed my Master Thesis.
+          <br>
+          <!-- I consider myself a fan of dragon ball (Z,GT,Super), I enjoy going out for walks and my favorite food is Rice and beans(Belizean Dish) and I enjoy time with my girlfriend and family. -->
+        </div>
+        <!-- About me -->
+          <div class="col-lg-4 text-center">
+              <div class="circle animated zoomIn" style="background-image:url('../assets/img/mypic.jpg')">
+              </div>
+              <div class="row links">
+                <div class="col-lg-12 col-md-12 col-12">
+                  <div class="row text-center">
+                    <div class="col-lg-6 col-md-6 col-6">
+                      <a   href="../assets/pdf/cv_Gian_Eng.pdf" target="_blank" >Download CV-English</a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-6">
+                      <a   href="../pdf/cv_Gian_Spa.pdf" target="_blank" >Download CV-Spanish</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- profile picture -->
+
+          <div class="col-lg-4" id="skills">
+            <div class="title-skills">
+              <h2  class="text-primary">My Professional Skills</h2>
+            </div>
+            <div class="progress-bar-skills">
+              <p>
+                These are a few of the technologies I use very well.
+              </p>
+              <div class="row">
+                  <div class="col-md-3 col-sm-3 col-3">
+                      <div class="progress angular">
+                          <span class="progress-left">
+                              <span class="progress-bar"></span>
+                          </span>
+                          <span class="progress-right">
+                              <span class="progress-bar"></span>
+                          </span>
+                          <div class="progress-value">
+
+                            <i class="devicon-angularjs-plain"></i>
+
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-3">
+                      <div class="progress cplus">
+                          <span class="progress-left">
+                              <span class="progress-bar"></span>
+                          </span>
+                          <span class="progress-right">
+                              <span class="progress-bar"></span>
+                          </span>
+                          <div class="progress-value">
+                            <i class="devicon-cplusplus-plain"></i>
+                          </div>
+
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-3">
+                      <div class="progress yellow">
+                          <span class="progress-left">
+                              <span class="progress-bar"></span>
+                          </span>
+                          <span class="progress-right">
+                              <span class="progress-bar"></span>
+                          </span>
+                          <div class="progress-value">
+                            <i class="devicon-bootstrap-plain"></i>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-3">
+                      <div class="progress yellow">
+                          <span class="progress-left">
+                              <span class="progress-bar"></span>
+                          </span>
+                          <span class="progress-right">
+                              <span class="progress-bar"></span>
+                          </span>
+                          <div class="progress-value">
+                             <i class="devicon-django-plain"></i>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row text-center">
+                  <div class="col-md-3 col-sm-3 col-3">
+                      <div class="progress javascript">
+                          <span class="progress-left">
+                              <span class="progress-bar"></span>
+                          </span>
+                          <span class="progress-right">
+                              <span class="progress-bar"></span>
+                          </span>
+                          <div class="progress-value">
+
+                            <i class="devicon-javascript-plain"></i>
+
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-3">
+                      <div class="progress github">
+                          <span class="progress-left">
+                              <span class="progress-bar"></span>
+                          </span>
+                          <span class="progress-right">
+                              <span class="progress-bar"></span>
+                          </span>
+                          <div class="progress-value">
+                            <i class="devicon-mysql-plain-wordmark"></i>
+                          </div>
+
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-3">
+                      <div class="progress yellow">
+                          <span class="progress-left">
+                              <span class="progress-bar"></span>
+                          </span>
+                          <span class="progress-right">
+                              <span class="progress-bar"></span>
+                          </span>
+                          <div class="progress-value">
+                            <i class="devicon-css3-plain"></i>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-3">
+                      <div class="progress python">
+                          <span class="progress-left">
+                              <span class="progress-bar"></span>
+                          </span>
+                          <span class="progress-right">
+                              <span class="progress-bar"></span>
+                          </span>
+                          <div class="progress-value">
+                             <i class="devicon-python-plain"></i>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row text-center">
+                  <div class="col-md-3 col-sm-3 col-3">
+                      <div class="progress github">
+                          <span class="progress-left">
+                              <span class="progress-bar"></span>
+                          </span>
+                          <span class="progress-right">
+                              <span class="progress-bar"></span>
+                          </span>
+                          <div class="progress-value">
+
+                            <i class="devicon-github-plain"></i>
+
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-3">
+                      <div class="progress csharp">
+                          <span class="progress-left">
+                              <span class="progress-bar"></span>
+                          </span>
+                          <span class="progress-right">
+                              <span class="progress-bar"></span>
+                          </span>
+                          <div class="progress-value">
+                            <i class="devicon-csharp-plain-wordmark"></i>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-3">
+                      <div class="progress html5">
+                          <span class="progress-left">
+                              <span class="progress-bar"></span>
+                          </span>
+                          <span class="progress-right">
+                              <span class="progress-bar"></span>
+                          </span>
+                          <div class="progress-value">
+                            <i class="devicon-html5-plain"></i>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-3">
+                      <div class="progress php">
+                          <span class="progress-left">
+                              <span class="progress-bar"></span>
+                          </span>
+                          <span class="progress-right">
+                              <span class="progress-bar"></span>
+                          </span>
+                          <div class="progress-value">
+                             <i class="devicon-php-plain"></i>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- Skills -->
+      </div>
+      <div class="row links-responsive">
+        <div class="col-lg-12 col-md-12 col-12">
+          <div class="row text-center">
+            <div class="col-lg-6 col-md-6 col-6">
+              <a   href="../assets/pdf/cv_Gian_Eng.pdf" target="_blank" >Download CV-English</a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-6">
+              <a   href="../assets/pdf/cv_Gian_Spa.pdf" target="_blank" >Download CV-Spanish</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section bg-primary">
+     <div class="page-header">
+       <h1 class="timeline-header">Education</h1>
+     </div>
+     <ul class="timeline">
+       <li>
+         <div class="timeline-badge primary">
+           <!-- <i class="fa fa-money" aria-hidden="true"></i> -->
+         </div>
+         <div class="timeline-panel">
+           <div class="timeline-heading">
+             <!-- <p class="num" id="num1">1</p> -->
+             <h4 class="timeline-title">BS in Computer Engineering</h4>
+             <hr>
+           </div>
+           <div class="timeline-body">
+             <p>Instituto Tecnológico de Chetumal</p>
+             <div class="col-lg-4 col-md-4 col-sm-4 offset-lg-4 offset-md-4 offset-sm-4">
+              <p class="year"> 2010-2014 </p>
+             </div>
+           </div>
+         </div>
+       </li>
+       <li class="timeline-inverted">
+         <div class="timeline-badge primary">
+           <!-- <i class="fa fa-database" aria-hidden="true"></i> -->
+         </div>
+         <div class="timeline-panel">
+           <div class="timeline-heading">
+             <h4 class="timeline-title">MS in Computer Science</h4>
+             <hr>
+           </div>
+           <div class="timeline-body">
+             <p>Universidad Autónoma de Yucatán</p>
+             <div class="col-lg-4 col-md-4 col-sm-4 offset-lg-4 offset-md-4 offset-sm-4">
+              <p class="year"> 2015-2017 </p>
+             </div>
+
+           </div>
+
+
+         </div>
+       </li>
+     </ul>
+
+   </section>
+    <!-- Services -->
+    <section class="content-section bg-light text-center" id="services">
+      <div class="container">
+        <div class="content-section-heading">
+          <!-- <h3 class="text-secondary mb-0">Service</h3> -->
+          <h2 class="mb-5 text-secondary">What I Offer</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-screen-smartphone"></i>
+            </span>
+            <h4>
+              <strong>Responsive</strong>
+            </h4>
+            <p class="text-faded mb-0 text-primary">Websites will look great anywhere!</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-5 mb-md-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-like"></i>
+            </span>
+            <h4>
+              <strong>Passion on every project</strong>
+            </h4>
+            <p class="text-faded mb-0 text-primary">Will be there every
+              <i class="fa fa-heart"></i>
+              step of the way</p>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-mustache"></i>
+            </span>
+            <h4>
+              <strong>Intelligent Solutions</strong>
+            </h4>
+            <p class="text-faded mb-0 text-primary">A functional and Attractive application</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Callout -->
+    <!-- <section class="container-skills bg-light" id="skills">
+      <div class="text-center">
+
+      </div>
+    </section> -->
+
+    <!-- Portfolio -->
+    <section class="content-section bg-primary" id="portfolio">
+      <div class="container">
+
+        <div class="content-section-heading text-center">
+          <h2 class="text-secondary mb-0">Portfolio</h2>
+          <!-- <h2 class="mb-5 text-white">Recent Projects</h2> -->
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <a class="portfolio-item"  href="http://codigopenalcatalogo.com.s3-website-us-west-1.amazonaws.com/" target="_blank">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Search for Laws</h2>
+                  <p class="mb-0">Search for different titles and chapters from a the Criminal Code of Yucátan. Developed in Angular and GraphQl</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="assets/img/portfolio-1.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="http://www.deepdatat.com/" target="_blank">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Deep Data Technologies</h2>
+                  <p class="mb-0">A website developed for a Mexican Tech StartUp.</p>
+                  <!-- Button trigger modal -->
+
+                </span>
+              </span>
+              <img class="img-fluid" src="assets/img/portfolio-2.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" data-toggle="exampleModal" data-target="#exampleModal">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>AImmonite</h2>
+                  <p class="mb-0">Dashboard system to see data with interactive graphs.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="assets/img/portfolio-3.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Wireless Network of Sensors </h2>
+                  <p class="mb-0">A WSN was developed to monitor 4 tilapia ponds. It was developed using Django, Arduino and Xbee.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="assets/img/portfolio-4.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <!-- <section class="content-section bg-primary text-white">
+      <div class="container text-center">
+        <h2 class="mb-4">The buttons below are impossible to resist...</h2>
+        <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
+        <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
+      </div>
+    </section> -->
+
+    <!-- Map -->
+    <section id="contact" class="bg-light">
+
+      <div class="row">
+        <div class="col-lg-6" style="height:100;">
+        <section id="contact" class="map">
+          <!-- <iframe width="100%" height="100%"frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+          <br/>
+          <small>
+            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+          </small> -->
+          <!-- this creates a google map on the page with the given lat/lng from -->
+<!-- the component as the initial center of the map: -->
+<agm-map   [zoom]="zoom"
+  [disableDefaultUI]="false"
+  [zoomControl]="false"
+   [latitude]="lat" [longitude]="lng">
+  <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+</agm-map>
+        </section>
+        </div>
+        <div class="col-lg-6 form">
+          <div class="col-md-10 offset-md-1 form">
+
+            <h3 class="text-secondary text-center">Write to Me </h3>
+            <form [formGroup]="validateForm" (ngSubmit)="register(validateForm)" novalidate>
+               <div class="col-sm-12 pb-3">
+                <alert></alert>
+              </div>
+              <div class="row">
+                <div class="col-sm-6 pb-3">
+                 <label class="label" for="exampleFirst"> <i class="fa fa-user"></i> Name </label>
+                  <input class="form-control" type="text" name="name" formControlName="name" [(ngModel)]="email.name" >
+                  <errors [control]="validateForm.controls.name"></errors>
+                </div>
+                <div class="col-sm-6 pb-3">
+                  <label for="exampleLast"> <i class="fa fa-envelope"></i> Email</label>
+                  <input type="text" name="email" class="form-control" formControlName="email" [(ngModel)]="email.email">
+                  <errors [control]="validateForm.controls.email"></errors>
+                </div>
+                <div class="col-sm-12 pb-3">
+                    <label for="exampleCity"> <i class="fa fa-text-width"></i> Subject</label>
+                    <input type="text" class="form-control" id="exampleCity" formControlName="subject" [(ngModel)]="email.subject">
+                    <errors [control]="validateForm.controls.subject"></errors>
+                </div>
+                <div class="col-sm-12 pb-3">
+                 <label for="exampleMessage"><i class="fa fa-align-justify"></i> Message</label>
+                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" formControlName="text"  [(ngModel)]="email.message"></textarea>
+                 <errors [control]="validateForm.controls.text"></errors>
+               </div>
+                <errors [control]="validateForm"></errors>
+                <div class="col-lg-12">
+                  <button class="btn btn-primary" type="submit" [disabled]="validateForm.invalid">Submit</button>
+                </div>
+              </div>
+              </form>
+           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center bg-primary">
+      <div class="container">
+        <ul class="list-inline mb-5 spinning-icons">
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle   mr-3" href="https://www.facebook.com/gian.nestor" target="_blank">
+              <i class="icon-social-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle   mr-3" href="https://twitter.com/giancuello26" target="_blank">
+              <i class="icon-social-twitter"></i>
+            </a>
+          </li>
+          <!-- <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="#">
+              <i class="icon-social-instagram"></i>
+            </a>
+          </li> -->
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle  " href="https://github.com/Gian26" target="_blank">
+              <i class="icon-social-github"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle mr-3" href="https://www.linkedin.com/in/giancuello26/" target="_blank">
+              <i class="icon-social-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p>
+           Copyright &copy; cuellodev.com 2017
+      </p>
+
+     </footer>
+
+
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" [ngx-scroll-to]="'page-top'">
+      <i class="fa fa-angle-up"></i>
+    </a>
+  </body>
